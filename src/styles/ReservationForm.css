@@ -1,0 +1,54 @@
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form label {
+    font-weight: bold;
+    color: #4caf50; /* Зелений колір для тексту */
+}
+
+.reservation-form input {
+    padding: 15px;
+    border: 2px solid #4caf50; /* Зелена рамка */
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.reservation-form input:focus {
+    outline: none; /* Вимкнення стандартного обведення */
+    border-color: #45a049; /* Темніший зелений при фокусі */
+    box-shadow: 0 0 5px rgba(72, 224, 104, 0.5); /* Легке світіння при фокусі */
+}
+
+.reservation-form input::placeholder {
+    color: #bbb; /* Сірий колір для плейсхолдеру */
+}
+
+.reservation-form button {
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.reservation-form button:hover {
+    background-color: #45a049; /* Змінює колір при наведенні */
+    transform: translateY(-2px); /* Легкий підйом при наведенні */
+}
+
+.reservation-form button:active {
+    transform: translateY(0); /* Повертається на місце при натисканні */
+}

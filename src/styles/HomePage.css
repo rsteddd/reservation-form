@@ -1,0 +1,13 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Світло-сірий фон */
+}
+
+.home-page h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333; /* Темно-сірий колір */
+}
